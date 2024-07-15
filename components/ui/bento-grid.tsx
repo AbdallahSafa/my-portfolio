@@ -44,8 +44,8 @@ export const BentoGridItem = ({
     spareImg?: string;
     spareImgClassName?: string;
 }) => {
-    const leftLists = ["Javascript", "ReactJS", "Go", "C", "Python"];
-    const rightLists = ["C++", "Java", "Spring boot", "Docker"];
+    const leftLists = ["Javascript", "ReactJS", "Go", "C", "Python", "HTML/CSS","SQL"];
+    const rightLists = ["C++", "Java", "Spring boot", "Docker","GIT"];
 
     return (
         <div
