@@ -21,7 +21,7 @@ export const gridItems = [
         description: "this is",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         titleClassName: "justify-start",
-        img: "/spotify.svg",
+        img: "../spotify.svg",
         imgClassName: "absolute right-4 bottom-4 w-16 h-16", // Adjust the size and position
     },
 
@@ -32,8 +32,8 @@ export const gridItems = [
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "mb-2",
-        img: "/lions2.png",
-        spareImg: "/trophy.png",
+        img: "./lions2.png",
+        spareImg: "./trophy.png",
         spareImgClassName: "absolute left-0 bottom-0 w-96 h-96", // Adjust the size and position
     },
 
