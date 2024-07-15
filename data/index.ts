@@ -21,7 +21,7 @@ export const gridItems = [
         description: "this is",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         titleClassName: "justify-start",
-        img: "../spotify.svg",
+        img: "./spotify.svg",
         imgClassName: "absolute right-4 bottom-4 w-16 h-16", // Adjust the size and position
     },
 
