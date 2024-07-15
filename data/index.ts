@@ -18,7 +18,7 @@ export const gridItems = [
     {
         id: 2,
         title: "What I listen to.",
-        description: "",
+        description: "this is",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         titleClassName: "justify-start",
         img: "/spotify.svg",
@@ -40,10 +40,10 @@ export const gridItems = [
     {
         id: 4,
         title: "Contact Me",
-        description: "",
+        description: "if you'd like to",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
-        titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+        titleClassName: "md:max-w-full max-w-60 ",
         img: "",
         spareImg: "",
     },
