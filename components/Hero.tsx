@@ -12,7 +12,7 @@ const Hero = () => {
                     <div
                         className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center ">
                         <h2 className="uppercase tracking-widest test-xs text-center text-white max-w-80">
-                            Hello I'm
+                            Hello I am
                         </h2>
                         <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
                             Abdallah Safa
