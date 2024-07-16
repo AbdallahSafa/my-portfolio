@@ -145,15 +145,15 @@ export const BentoGridItem = ({
 
                 {id === 1 && (
                     <div className="absolute right-0 lg:right-2 z-10">
-                        <div className="grid grid-cols-1 gap-3 lg:gap-8 w-full z-10">
-                            <div className="flex flex-wrap gap-3 lg:gap-5 justify-center z-10">
+                        <div className="grid grid-cols-1 gap-2 lg:gap-8 w-full z-10">
+                            <div className= "w-full flex flex-wrap gap-3 lg:gap-5 justify-center z-10">
                                 {leftLists.map((item, i) => (
                                     <span key={i} className="py-1 px-2 text-xs sm:py-2 sm:px-1 sm:text-sm md:py-2 md:px-3 md:text-xs lg:py-4 lg:px-3 lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                                       {item}
                                     </span>
                                 ))}
                             </div>
-                            <div className="flex flex-wrap gap-3 lg:gap-5 justify-center">
+                            <div className="w-4/5 sm:w-full flex flex-wrap gap-3 lg:gap-5 justify-center mx-auto">
                                 {rightLists.map((item, i) => (
                                     <span key={i} className="py-1 px-2 text-xs sm:py-2 sm:px-1 sm:text-sm md:py-2 md:px-3 md:text-xs lg:py-4 lg:px-3 lg:text-base rounded-lg text-center bg-[#10132E] z-50">
                                         {item}
