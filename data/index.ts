@@ -33,7 +33,7 @@ export const gridItems = [
         imgClassName: "absolute right-0 bottom-0 w-50 h-40 sm:w-58 sm:h-48 md:w-74 md:h-64 lg:w-82 lg:h-72 xl:w-90 xl:h-80 max-w-lg max-h-lg",        titleClassName: "mb-2",
         img: "./lions2.png",
         spareImg: "./vandy.png",
-        spareImgClassName: "absolute left-20 sm:left-0 bottom-0 w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 max-w-lg max-h-lg",},
+        spareImgClassName: "absolute left-15 sm:left-0 bottom-0 w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 max-w-lg max-h-lg",},
     {
         id: 4,
         title: "Contact Me",

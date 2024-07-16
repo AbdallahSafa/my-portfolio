@@ -46,7 +46,7 @@ export const BentoGridItem = ({
 }) => {
 
     const leftLists = [ "JS","Go", "C", "Python", "C++","React"];
-    const rightLists = ["HTML/CSS", "Java", "Spring boot", "Docker","SQL","GIT"];
+    const rightLists = ["Java", "Spring boot", "Docker","SQL","GIT"];
 
     return (
         <div
@@ -128,7 +128,7 @@ export const BentoGridItem = ({
                 </div>
 
                 {id === 2 && (
-                    <div className= "max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center ">
+                    <div className= "mt-1.5 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center ">
                         <a
                             href="https://open.spotify.com/user/abdollarr"
                             target="_blank"
