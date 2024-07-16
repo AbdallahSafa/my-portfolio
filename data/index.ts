@@ -22,21 +22,18 @@ export const gridItems = [
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         titleClassName: "justify-start",
         img: "./spotify.svg",
-        imgClassName: "absolute right-4 bottom-4 w-16 h-16", // Adjust the size and position
+        imgClassName: "absolute right-4 bottom-4 w-16 h-16",
     },
 
     {
         id: 3,
         title: "Pride",
         description: "my",
-        className: "md:col-span-3 md:row-span-2",
-        imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-        titleClassName: "mb-2",
+        className: "md:col-span-3 md:row-span-2 sm:row-span-3",
+        imgClassName: "absolute right-0 bottom-0 w-50 h-40 sm:w-58 sm:h-48 md:w-74 md:h-64 lg:w-82 lg:h-72 xl:w-90 xl:h-80 max-w-lg max-h-lg",        titleClassName: "mb-2",
         img: "./lions2.png",
-        spareImg: "./trophy.png",
-        spareImgClassName: "absolute left-0 bottom-0 w-96 h-96", // Adjust the size and position
-    },
-
+        spareImg: "./vandy.png",
+        spareImgClassName: "absolute left-20 sm:left-0 bottom-0 w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 max-w-lg max-h-lg",},
     {
         id: 4,
         title: "Contact Me",

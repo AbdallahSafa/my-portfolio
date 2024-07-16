@@ -44,8 +44,9 @@ export const BentoGridItem = ({
     spareImg?: string;
     spareImgClassName?: string;
 }) => {
-    const leftLists = ["Javascript", "ReactJS", "Go", "C", "Python", "HTML/CSS","SQL"];
-    const rightLists = ["C++", "Java", "Spring boot", "Docker","GIT"];
+
+    const leftLists = [ "JS","Go", "C", "Python", "C++","React"];
+    const rightLists = ["HTML/CSS", "Java", "Spring boot", "Docker","SQL","GIT"];
 
     return (
         <div
@@ -59,25 +60,29 @@ export const BentoGridItem = ({
                     "linear-gradient(90deg, rgba(94,8,76,1) 15%, rgba(52,11,102,1) 54%, rgba(41,21,93,1) 82%)",
             }}
         >
-            {/* Display images */}
-            <div className="w-full h-full absolute">
-                {img && (
-                    <img
-                        src={img}
-                        alt={img}
-                        className={cn(imgClassName, "object-cover object-center")}
-                    />
-                )}
+            <div className= "flex justify-center">
+                <div className="w-full h-full absolute">
+                    {img && (
+                        <img
+                            src={img}
+                            alt={spareImg}
+                            className={cn(imgClassName, "object-cover object-center")}
+                        />
+                    )}
+                </div>
+                <div className="w-full h-full absolute">
+                    {spareImg && (
+                        <img
+                            src={spareImg}
+                            alt={img}
+                            className={cn(spareImgClassName, "")}
+                        />
+                    )}
+                </div>
             </div>
-            <div className="w-full h-full absolute">
-                {spareImg && (
-                    <img
-                        src={spareImg}
-                        alt={spareImg}
-                        className={cn(spareImgClassName, "object-cover object-center")}
-                    />
-                )}
-            </div>
+
+
+
 
             {id === 1 && (
                 <AuroraBackground>
@@ -123,17 +128,19 @@ export const BentoGridItem = ({
                 </div>
 
                 {id === 2 && (
-                    <a
-                        href="https://open.spotify.com/user/abdollarr"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <MagicButton
-                            title={"Spotify"}
-                            icon={<FaLocationArrow/>}
-                            position="right"
-                        />
-                    </a>
+                    <div className= "max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center ">
+                        <a
+                            href="https://open.spotify.com/user/abdollarr"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <MagicButton
+                                title={"Spotify"}
+                                icon={<FaLocationArrow/>}
+                                position="right"
+                            />
+                        </a>
+                    </div>
                 )}
 
                 {id === 1 && (
@@ -141,22 +148,16 @@ export const BentoGridItem = ({
                         <div className="grid grid-cols-1 gap-3 lg:gap-8 w-full z-10">
                             <div className="flex flex-wrap gap-3 lg:gap-5 justify-center z-10">
                                 {leftLists.map((item, i) => (
-                                    <span
-                                        key={i}
-                                        className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                                    >
-                    {item}
-                  </span>
+                                    <span key={i} className="py-1 px-2 text-xs sm:py-2 sm:px-1 sm:text-sm md:py-2 md:px-3 md:text-xs lg:py-4 lg:px-3 lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                                      {item}
+                                    </span>
                                 ))}
                             </div>
                             <div className="flex flex-wrap gap-3 lg:gap-5 justify-center">
                                 {rightLists.map((item, i) => (
-                                    <span
-                                        key={i}
-                                        className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base rounded-lg text-center bg-[#10132E] z-50"
-                                    >
-                    {item}
-                  </span>
+                                    <span key={i} className="py-1 px-2 text-xs sm:py-2 sm:px-1 sm:text-sm md:py-2 md:px-3 md:text-xs lg:py-4 lg:px-3 lg:text-base rounded-lg text-center bg-[#10132E] z-50">
+                                        {item}
+                                    </span>
                                 ))}
                             </div>
                         </div>
