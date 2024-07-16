@@ -5,17 +5,19 @@ import {FloatingNav} from "@/components/ui/floating-navbar";
 import {FaHome} from "react-icons/fa";
 import Grid from "@/components/Grid";
 import {navItems} from "@/data";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
       <main
-          className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+          className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5">
           <div className="max-w-7xl w-full">
               <FloatingNav navItems={navItems} />
               <Hero/>
               <div className = "mt-0.25">
                   <Grid/>
               </div>
+              <Projects/>
           </div>
       </main>
 

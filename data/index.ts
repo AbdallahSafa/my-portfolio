@@ -44,20 +44,19 @@ export const gridItems = [
         img: "",
         spareImg: "",
     },
-    // {
-    //     id: 3,
-    //     title: "Currently building an Interpreter in Go",
-    //     description: "Slime",
-    //     className: "md:col-span-3 md:row-span-2",
-    //     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    //     titleClassName: "justify-center md:justify-start lg:justify-center",
-    //     img: "",
-    //     spareImg: "",
-    // },
 
 ];
 
 export const projects = [
+    {
+        id: 1,
+        title: "Slime",
+        des: "Interperter for the Slime programming language developed in Go.",
+        img: "./Slime.png",
+        iconLists: [],
+        link: "https://github.com/AbdallahSafa/slime",
+    },
+
 
 ];
 
