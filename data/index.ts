@@ -72,6 +72,15 @@ export const projects = [
         iconLists: ["./c++.svg"],
         link: "https://github.com/jameshuang12/Low-Latency-Trading-System-101",
     },
+    {
+        id: 4,
+        title: "Odds",
+        des: "Multiplayer Python-based implementation of the game Odds.",
+        img: "./dice2.png",
+        iconLists: ["./python.svg"],
+        link: "https://github.com/jameshuang12/Low-Latency-Trading-System-101",
+    },
+
 
 
 ];
@@ -100,7 +109,7 @@ export const workExperience = [
         id: 2,
         title: "Teaching Assistant - Data Structures & Algorithms",
         desc: "TA.",
-        className: "md:col-span-2", // change to md:col-span-2
+        className: "md:col-span-2",
         thumbnail: "",
     },
 
