@@ -52,9 +52,17 @@ export const projects = [
         id: 1,
         title: "Slime",
         des: "Interperter for the Slime programming language developed in Go.",
-        img: "./Slime.png",
-        iconLists: [],
+        img: "./slimeball.png",
+        iconLists: ["./go.png"],
         link: "https://github.com/AbdallahSafa/slime",
+    },
+    {
+        id: 2,
+        title: "Pokes",
+        des: "Pokes is a web application that allows users to track their poker games and statistics.",
+        img: "./pokesChip.png",
+        iconLists: ["./re.svg","./spring.svg","./dock.svg","mysql.svg"],
+        link: "https://github.com/AbdallahSafa/Pokes",
     },
 
 
