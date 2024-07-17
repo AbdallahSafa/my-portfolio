@@ -78,7 +78,7 @@ export const projects = [
         des: "Multiplayer Python-based implementation of the game Odds.",
         img: "./dice2.png",
         iconLists: ["./python.svg"],
-        link: "https://github.com/jameshuang12/Low-Latency-Trading-System-101",
+        link: "https://github.com/AbdallahSafa/multiplayer_odds",
     },
 
 
