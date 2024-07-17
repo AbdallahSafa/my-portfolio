@@ -16,7 +16,6 @@ const Projects = () =>{
                           <div
                               className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[25vh] h-[20vh] mb-12 ">
                               <img src={img} alt={title} className="absolute bottom-0"/>
-
                           </div>
                           <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                               {title}

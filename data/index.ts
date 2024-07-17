@@ -64,6 +64,14 @@ export const projects = [
         iconLists: ["./re.svg","./spring.svg","./dock.svg","mysql.svg"],
         link: "https://github.com/AbdallahSafa/Pokes",
     },
+    {
+        id: 3,
+        title: "AJ Trading System",
+        des: "Low Latency Trading System developed in C++ with James Huang. ",
+        img: "./stock.png",
+        iconLists: ["./c++.svg"],
+        link: "https://github.com/jameshuang12/Low-Latency-Trading-System-101",
+    },
 
 
 ];
