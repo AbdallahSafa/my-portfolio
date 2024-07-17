@@ -14,7 +14,7 @@ const Projects = () =>{
                   <div key = {id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] -h[25rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
                       <PinContainer title={link} href={link}>
                           <div
-                              className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[25vh] h-[20vh] mb-15 ">
+                              className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[25vh] h-[20vh] mb-12 ">
                               <img src={img} alt={title} className="absolute bottom-0"/>
 
                           </div>
