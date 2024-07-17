@@ -9,12 +9,12 @@ const Projects = () =>{
           <h1 className = "heading">
               My {' '}<span className = "text-blue-800"> Projects</span>
           </h1>
-          <div className = "flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+          <div className = "flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
               {projects.map(({id,title,des,img,iconLists,link}) => (
-                  <div key = {id} className="lg:min-h-[32.5rem] -h[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
+                  <div key = {id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] -h[25rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
                       <PinContainer title={link} href={link}>
                           <div
-                              className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] ">
+                              className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[25vh] h-[20vh] mb-15 ">
                               <img src={img} alt={title} className="absolute bottom-0"/>
 
                           </div>
