@@ -12,7 +12,7 @@ const Projects = () =>{
           <div className = "flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
               {projects.map(({id,title,des,img,iconLists,link}) => (
                   <div key = {id} className="lg:min-h-[32.5rem] -h[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
-                      <PinContainer title={title} href={link}>
+                      <PinContainer title={link} href={link}>
                           <div
                               className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] ">
                               <img src={img} alt={title} className="absolute bottom-0"/>
@@ -24,7 +24,6 @@ const Projects = () =>{
                           <p className="lg:text-xl lg:font-normal font-light font-sm line-clamp-2">
                               {des}
                           </p>
-
                           <div className="flex items-center justify-between mt-7 mb-3 ">
                               <div className="flex items-center">
                                   {iconLists.map((icon, index) => (
