@@ -79,7 +79,22 @@ export const projects = [
         img: "./dice2.png",
         iconLists: ["./python.svg"],
         link: "https://github.com/AbdallahSafa/multiplayer_odds",
+    },    {
+        id: 5,
+        title: "Vandy Flights",
+        des: "Flight Booking System developed in React, FastAPI, and Firebase",
+        img: "./plane.png",
+        iconLists: ["./python.svg","./javascript.svg","./re.svg","./fastapi.svg","./firebase.svg"],
+        link: "https://github.com/lanierjh/VandyFlights",
+    },    {
+        id: 6,
+        title: "Dealbreakerz",
+        des: "Multiplayer Online Game developed in React, Node.js, Socket.io, and PostgreSQL",
+        img: "./heart.png",
+        iconLists: ["./javascript.svg","./re.svg","./nodejs.svg","./socketio.svg","./postgresql.svg"],
+        link: "https://dealbreakerz.xyz/",
     },
+
 
 
 
