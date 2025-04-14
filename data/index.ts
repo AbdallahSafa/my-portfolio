@@ -36,11 +36,11 @@ export const gridItems = [
         spareImgClassName: "absolute left-16 sm:left-0 bottom-0 w-36 h-36 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 max-w-lg max-h-lg",},
     {
         id: 4,
-        title: "Contact Me",
+        title: "Connect with me",
         description: "if you'd like to",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
-        titleClassName: "md:max-w-full max-w-60 ",
+        titleClassName: "md:max-w-full max-w-60",
         img: "",
         spareImg: "",
     },

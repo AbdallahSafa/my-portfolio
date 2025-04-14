@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import MagicButton from "@/components/ui/MagicButton";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import { FaLocationArrow } from "react-icons/fa";
+import { FaLocationArrow, FaGithub, FaLinkedin } from "react-icons/fa";
 import React from "react";
 
 export const BentoGrid = ({
@@ -138,6 +138,37 @@ export const BentoGridItem = ({
                                 title={"Spotify"}
                                 icon={<FaLocationArrow/>}
                                 position="right"
+                            />
+                        </a>
+                    </div>
+                )}
+
+                {id === 4 && (
+                    <div className="mt-4 flex flex-row gap-4 items-center justify-center z-10">
+                        <a
+                            href="https://github.com/AbdallahSafa"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-1/2"
+                        >
+                            <MagicButton
+                                title={"GitHub"}
+                                icon={<FaGithub className="text-lg" />}
+                                position="left"
+                                otherClasses="md:w-auto h-10"
+                            />
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/abdallahsafa"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-1/2"
+                        >
+                            <MagicButton
+                                title={"LinkedIn"}
+                                icon={<FaLinkedin className="text-lg" />}
+                                position="left"
+                                otherClasses="md:w-auto h-10"
                             />
                         </a>
                     </div>
